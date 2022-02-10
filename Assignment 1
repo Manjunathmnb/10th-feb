@@ -1,0 +1,13 @@
+sno=int(input('Enter the sno:'))
+sname=input('Enter the name:')
+sgroup=input ('Enter group name')
+s1=int(input('Enter the maths marks:'))
+s2=int(input('Enter the electronics marks:'))
+s3=int(input('Enter the computers marks:'))
+s4=int(input('Enter the telugu marks:'))
+s5=int(input('Enter the english marks:'))
+s6=int(input('Enter the soft skills marks:'))
+if (s1>=35&s2>=35&s3>=35&s4>=35&s5>=35&s6>=35):
+    print('pass')
+else:
+    print('fail')
